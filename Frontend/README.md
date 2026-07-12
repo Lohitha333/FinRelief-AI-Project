@@ -1,16 +1,89 @@
-# React + Vite
+# FinRelief AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered financial relief platform that helps users manage loans, predict settlement amounts, and generate negotiation letters.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Registration and Login
+- Financial Profile Analysis
+- Add Loan
+- View Loans
+- Update Loan
+- Delete Loan
+- Settlement Prediction
+- AI Negotiation Letter Generation
 
-## React Compiler
+## Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
+- FastAPI
+- SQLAlchemy
+- SQLite
+- Python
 
-## Expanding the ESLint configuration
+### Frontend
+- React.js
+- Vite
+- Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### AI Integration
+- Google Gemini API
+
+## Project Structure
+
+```
+FinRelief-AI/
+│
+├── Backend/
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── database.py
+│   └── ...
+│
+├── Frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...
+│
+└── README.md
+```
+
+## Installation
+
+### Backend
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+## Backend site
+
+<img width="940" height="460" alt="image" src="https://github.com/user-attachments/assets/76ae5300-bc9f-43ec-bc59-f4614ab4b73a" />
+
+<img width="944" height="457" alt="image" src="https://github.com/user-attachments/assets/fc612ee1-871e-466b-8f1d-1d45ea264ae7" />
+
+<img width="937" height="461" alt="image" src="https://github.com/user-attachments/assets/18ee4f77-b69f-4b2f-8619-96946fe221f4" />
+
+## Frontend site
+
+<img width="944" height="440" alt="image" src="https://github.com/user-attachments/assets/ad98f55f-ceef-4b8c-a186-2e985be31141" />
+
+<img width="950" height="475" alt="image" src="https://github.com/user-attachments/assets/15e4b0e6-9d86-44ea-aba1-a407f5580bdc" />
+
+
+<img width="958" height="472" alt="image" src="https://github.com/user-attachments/assets/b220ef06-2538-494d-9ae8-ae8eab653bc0" />
+
+
+<img width="958" height="481" alt="image" src="https://github.com/user-attachments/assets/61fa9614-eafe-4cbc-a499-ee6b0dad7fe6" />
+
+
+<img width="959" height="479" alt="image" src="https://github.com/user-attachments/assets/fed30591-a865-40ef-a1f8-064ec0328a4e" />
